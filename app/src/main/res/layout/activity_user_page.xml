@@ -64,14 +64,13 @@
         android:layout_height="match_parent"
         android:layout_below="@+id/relativeLayout2"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="55dp"
         android:weightSum="3">
 
         <Button
             android:layout_width="126dp"
             android:layout_height="126dp"
             android:text="Moar Pics!!!"
-            android:id="@+id/morePics"
+            android:id="@+id/morePicsButton"
             android:layout_weight="1"
             android:backgroundTint="@color/colorPrimaryLight" />
 
@@ -79,7 +78,7 @@
             android:layout_width="126dp"
             android:layout_height="126dp"
             android:text="Tom's Friends"
-            android:id="@+id/friends"
+            android:id="@+id/friendsButton"
             android:layout_weight="1"
             android:backgroundTint="@color/colorPrimaryLight" />
 
@@ -87,7 +86,7 @@
             android:layout_width="126dp"
             android:layout_height="126dp"
             android:text="Contact"
-            android:id="@+id/contact"
+            android:id="@+id/contactButton"
             android:layout_weight="1"
             android:backgroundTint="@color/colorPrimaryLight" />
     </LinearLayout>

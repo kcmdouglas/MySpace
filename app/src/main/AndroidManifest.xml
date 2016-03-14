@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".UserPageActivity" />
-        <activity android:name=".ImageActivity"></activity>
+        <activity android:name=".ImageActivity" />
+        <activity android:name=".FriendActivity"></activity>
     </application>
 
 </manifest>
